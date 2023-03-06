@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: #0B4A85F2;
+    position: sticky;
+}
+
+.headerTextOne {
+    font-size: 35px;
+    color: white;
+    text-decoration: none;
+    margin-right: 990px;
+}
+
+.headerTextTwo {
+    position: relative;
+    padding-left: 20px;
+    top: 13px;
+    text-decoration: none;
+    color: white;
+}
+
+.headerTextThirt {
+    position: relative;
+    top: 13px;
+    left: 50px;
+    text-decoration: none;
+    color: white;
+}
