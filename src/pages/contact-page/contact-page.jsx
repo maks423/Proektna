@@ -4,7 +4,9 @@ import "./contact-page.css";
 const ContactPage = () => {
   return (
     <div className="backgroundContact">
-      <img className="vuykoCentr" src="/images/vuyko_centr.png" alt="Doctor" />
+      <img className="doctorTable" src="/images/DoctorTable.png" alt="Doctor" />
+      <img className="pliama1" src="/images/pliama1.jpg"></img>
+      <img className="pliama2" src="/images/pliama2.jpg"></img>
       <div className="applicationForm">
         <div className="applicationFormHeader">Application form</div>
         
@@ -17,7 +19,7 @@ const ContactPage = () => {
         <label className="textInputContact" for="email">Email</label>
           <input type="text" id="email" className="contactPageInput" />
         </div>
-
+ 
         <div className="applicationFormBirthday">
         <label className="textInputContact" for="birthday">Birthday</label>
           <input type="text" id="birthday" className="contactPageInput" />
