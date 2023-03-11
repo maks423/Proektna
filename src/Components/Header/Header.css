@@ -80,4 +80,6 @@
     justify-content: center;
     position: relative;
     left: 50%;
+    color: white;
+    text-decoration: none;
 }

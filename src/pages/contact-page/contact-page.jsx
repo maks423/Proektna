@@ -38,7 +38,7 @@ const ContactPage = () => {
         <div className="applicationFormCreate">
             <input className="applicationFormCreateButton" type="button" value="Create" />
         </div>
-        
+         
       </div>
     </div>
   );

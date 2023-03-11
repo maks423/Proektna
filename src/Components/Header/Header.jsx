@@ -15,7 +15,9 @@ const Header = () => {
         </NavLink>
       <a src="#" className="headerTextTwoo"> About us</a>
       <a src="#" className="headerTextThirt">English</a>
-      <div className="singIn"><a src="#" className="headerTextFour">Sign in</a></div>
+      <NavLink className="singIn" to="/signin">
+          Sign in
+      </NavLink>
     </header>
     
   );

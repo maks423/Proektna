@@ -1,0 +1,111 @@
+.backgroundSignIn{
+    background: #805BEA;
+    width: 100%;
+    height: 580px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.backgroundSignInForm{
+    position: relative;
+    left: 20px;
+    top: 15px;
+    grid-area: 1 / 1 / 6 / 6;
+    background: rgba(255, 255, 255, 0.95);
+    width: 1500px;
+    height: 480px;
+    display: grid;
+grid-template-columns: repeat(5, 1fr);
+grid-template-rows: repeat(5, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+
+}
+
+.signInPhoto{
+    grid-area: 3 / 1 / 5 / 3;
+    width: 390px;
+    height: 390px;
+    z-index: 3;
+    
+}
+
+.SignInForm{
+    position: relative;
+    top: 40px;
+    grid-area: 2 / 3 / 5 / 5; 
+    background: #6BB2D9;
+    display: flex;
+    padding: 40px;
+    border-color:#D094EC ;
+    border-radius: 10px;
+    border: 2px solid #D094EC;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    height: 250px;
+    opacity: 0.9;
+    z-index: 3;
+}
+
+.loginSignIn{
+    border-radius: 5px;
+    border-color:none ;
+    width: 400px;
+    height: 20px;
+    margin-bottom: 30px;
+   
+}
+
+.passwordSignIn{
+    width: 400px;
+    height: 20px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.buttonSignIn{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 125px;
+    height: 30px;
+    
+    background: #FFFFFF;
+    border: 2px solid #D094EC;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+
+
+}
+
+.labelLoginSignIn{
+   position: relative;
+   color: #1F0044;
+   left: 20px;
+    
+}
+
+.but{
+    display: flex;
+    justify-content: center;
+}
+
+.pliamaSign1{
+    position: absolute;
+    z-index: 2;
+    left: 890px;
+}
+.pliamaSign2{
+    position: absolute;
+    z-index: 2;
+    top: 150px;
+    left: 300px;
+}
+.pliamaSign3{
+    position: absolute;
+    z-index: 2;
+}
