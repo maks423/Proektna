@@ -13,7 +13,10 @@ const Header = () => {
         <NavLink to="/contact" className="headerTextTwo">
          Contact 
         </NavLink>
-      <a src="#" className="headerTextTwoo"> About us</a>
+        <NavLink to="/about" className="headerTextTwoo">
+         About us
+        </NavLink>
+     
       <a src="#" className="headerTextThirt">English</a>
       <NavLink className="singIn" to="/signin">
           Sign in

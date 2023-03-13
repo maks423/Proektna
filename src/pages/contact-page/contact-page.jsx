@@ -22,7 +22,7 @@ const ContactPage = () => {
  
         <div className="applicationFormBirthday">
         <label className="textInputContact" for="birthday">Birthday</label>
-          <input type="text" id="birthday" className="contactPageInput" />
+          <input type="date" id="birthday" className="contactPageInput" />
         </div>
 
         <div className="applicationFormLastName">
