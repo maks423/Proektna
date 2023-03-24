@@ -8,10 +8,10 @@
 
 .sectionDoctor {
     position: relative;
-    left: 1.5%;
-    top: 3%;
-    width: 97%;
-    height: 80%;
+    left: 22%;
+    bottom: 6%;
+    width: 78%;
+    height: 86.5%;
     background-color: #EDEFFB;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -24,7 +24,7 @@
     grid-area: 1 / 3 / 2 / 4;
     display: flex;
     position: relative;
-    left:70%;
+    left: 70%;
     font-size: 30px;
     color: #8D3535;
 }
@@ -38,7 +38,7 @@
 
 .cyrcleDoctor {
     position: relative;
-    left:15%;
+    left: 15%;
     bottom: 2%;
     width: 25%;
     height: 41%;
@@ -70,20 +70,22 @@
 }
 
 .startMeetingButtonDoctor {
+    position: relative;
+    right: 100%;
     color: white;
-    background-color: #2951B7;
+    background-color: #A4CFE7;
     border-radius: 5px;
     border-color: #4486AB;
-    width: 80%;
-    height: 40%;
+    width: 290px;
+height: 71px;
     font-size: 20px;
 }
 
 .clientBase {
     grid-area: 3 / 3 / 4 / 4;
     position: relative;
-    left: 80%;
-    bottom: 50%;
+    left: 100%;
+    /* bottom: 10%; */
     font-size: 30px;
     color: #1F0044;
 }
@@ -93,8 +95,8 @@
     position: relative;
     bottom: 6%;
     left: 3%;
-    width: 50.5%;
-    height: 250px;
+    width: 64%;
+    height: 280px;
     background-color: #D9D9D9;
 
 
@@ -104,13 +106,11 @@
 .textAreaClientBaze {
     position: relative;
     width: 470px;
-    height: 220px;
+    height: 230px;
     top: 15px;
     left: 15px;
-    background-color: #CDB7B7;
-    scroll-behavior: inherit;
-    overflow-y: scroll;
-    scrollbar-color: #CF5353 #CF5353;
+    background-color: white;
+
 }
 
 .client {
@@ -120,4 +120,47 @@
     background: #FFFFFF;
     border-radius: 5px;
     border-color: #CDB7B7;
+}
+
+.textClientBase {
+    position: relative;
+    top: 10px;
+    width: 88px;
+    height: 18px;
+    margin-left: 20px;
+    font-family: 'Arvo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #0B0A0C;
+}
+
+.iconProfile {
+    width: 86px;
+    height: 88px;
+    border-radius: 100px;
+    background-color: white;
+}
+
+.porfileSpace {
+    position: absolute;
+    left: 120px;
+    top: 90px;
+}
+
+.profileText {
+    width: 97px;
+    height: 18px;
+    display: flex;
+    font-family: 'Arvo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    position: relative;
+    color: #1C1B1D;
+    top: 130px;
+   
 }
